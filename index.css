@@ -1,0 +1,109 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Noto", sans-serif;
+}
+nav{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.26);
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    max-width: 1320px;
+    /* background-color: aquamarine; */
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    /* padding-bottom: px; */
+    margin-left: 30px;
+} 
+
+/* 
+nav img {
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 80px;
+
+} */
+nav h1{
+    color: red;
+    font-size: 40px;
+    display: inline-block;
+    margin-right: 100px;
+}
+main {
+   
+    /* background-image: url();
+    background-size: contain;
+    background-repeat: no-repeat; */
+
+}
+li {
+    list-style: none;
+}
+.aside {
+    display: inline-block;
+    width: 200px;
+    /* background-color: red; */
+    height: 300px;
+
+}
+.cards {
+    display: inline-block;
+    /* border: 2px solid black; */
+    margin-left: 60px;
+}
+.card {
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    margin: 3px;
+  
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;}
+.card img{
+    width: 200px;
+    height: 250px;
+    
+}
+section>div.container>h1{
+    color: rgba(43, 38, 38, 0.76);
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+}
+.aside {
+    font-weight: 700;
+    color: gray;
+
+}
+.bcard{
+    margin-left: 20px;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;}
+
+    
+.form {
+    font-weight: 700;
+    font-size: 20px;
+    color: gray;
+}
+input {
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
